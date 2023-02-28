@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "43983c2e624830a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "78a1e80db837f0e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6677d9fc6a8cb4a3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "37d102b6df41d1bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "acf58275f3cb39ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c3f5f20633cbe04",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "4cb718f2caace68e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "918adf3ea824f97e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bcc40af00d533496",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d1591b053444998",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c861008cc8f5971",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cf7920f9bd457c6e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "88b9704a5dce40a7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "39a7c514530c5c4f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "01b821bb3836f986",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "6677d9fc6a8cb4a3",
+  "lastOpenFiles": [
+    "Object-Oriented Design/Second Week/Four Design Principles.md",
+    "Object-Oriented Design/Second Week/Catalog.md",
+    "Object-Oriented Design/Second Week/Languages Evolution.md",
+    "Object-Oriented Design/Second Week/Creating Models in Design.md",
+    "Object-Oriented Design/First Week/Categories of Objects in Design.md",
+    "Object-Oriented Design/First Week/Object-Oriented Thinking.md",
+    "Object-Oriented Design/First Week/Introduction to Software Design and Architecture.md",
+    "Object-Oriented Design/First Week/Design for Quality Attributes.md",
+    "Object-Oriented Design/First Week/Class Responsibility Collaborator (CRC).md",
+    "Object-Oriented Design/First Week/Design in the Software Process.md",
+    "Object-Oriented Design/First Week/Review.md",
+    "Object-Oriented Design/First Week/Catalog.md",
+    "Object-Oriented Design/Second Week",
+    "Object-Oriented Design/First Week",
+    "Object-Oriented Design/First Week/Coursera_Object-Oriented-Design_Course-Notes.pdf",
+    "Object-Oriented Design/First Week/Coursera_C1-Glossary.pdf",
+    "Object-Oriented Design/First Week/Pasted image 20230226183835.png",
+    "Object-Oriented Design/Pasted image 20230226183753.png",
+    "Design in the Software Process[[.md"
+  ]
+}

@@ -1,0 +1,3 @@
+As you design software to satisfy requirements, you have to make many important decisions. Certain design decisions involve trade-offs in different quality attributes such as performance, convenience and security. 
+
+Finally project realities will impose compromises on your design. You must balance the software qualities with the resources you have to develop your product. Thinking about quality attributes gives a broader view on how you can achieve the desired requirements in your design. You now understand these qualities as competing ideals that must be balanced. When asked to satisfy a quality, you will consider multiple perspectives and look for potential trade-offs.
