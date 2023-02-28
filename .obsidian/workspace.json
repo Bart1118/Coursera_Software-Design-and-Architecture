@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Object-Oriented Design/Second Week/Four Design Principles.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Object-Oriented Design/Second Week/Four Design Principles.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Object-Oriented Design/Second Week/Four Design Principles.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Object-Oriented Design/Second Week/Four Design Principles.md"
+                "file": "README.md"
               }
             }
           },
@@ -156,8 +156,8 @@
   },
   "active": "6677d9fc6a8cb4a3",
   "lastOpenFiles": [
-    "README.md",
     "Object-Oriented Design/Second Week/Four Design Principles.md",
+    "README.md",
     "Object-Oriented Design/Second Week/Catalog.md",
     "Object-Oriented Design/Second Week/Languages Evolution.md",
     "Object-Oriented Design/Second Week/Creating Models in Design.md",
