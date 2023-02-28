@@ -12,13 +12,13 @@ This course extends object-oriented analysis and design by incorporating design 
 
 You will be challenged in the Capstone Project to redesign an existing Java-based Android application to implement a combination of design patterns. You will also critique a given Java codebase for code smells. After completing this course, you will be able to: • Demonstrate how to use design patterns to address user interface design issues. • Identify the most suitable design pattern to address a given application design problem. • Apply design principles (e.g., open-closed, dependency inversion, least knowledge). • Critique code by identifying and refactoring anti-patterns. • Apply the model-view-controller architectural pattern.
 
-## ***COURSE 3 Software Architecture
+## ***COURSE 3 Software Architecture***
 
 The way that software components — subroutines, classes, functions, etc. — are arranged, and the interactions between them, is called architecture. In this course you will study the ways these architectures are represented, both in UML and other visual tools. We will introduce the most common architectures, their qualities, and tradeoffs. We will talk about how architectures are evaluated, what makes a good architecture, and an architecture can be improved. We'll also talk about how the architecture touches on the process of software development.
 
 In the Capstone Project you will document a Java-based Android application with UML diagrams and analyze evaluate the application’s architecture using the Architecture Tradeoff Analysis Method (ATAM). After completing this course, you will be able to: • Compare and contrast the components, connections, protocols, topologies, constraints, tradeoffs, and variations of different types of architectural styles used in the design of applications and systems (e.g., main program and subroutine, object-oriented, interpreters, pipes and filters, database centric, event-based). • Describe the properties of layered and n-tier architectures. • Create UML ipackage, component, and deployment diagrams to express the architectural structure of a system. • Explain the behaviour of a system using UML activity diagrams. • Document a multi-application system with a layered architecture.
 
-## ***COURSE 4 ### Service-Oriented Architecture
+## ***COURSE 4 Service-Oriented Architecture***
 
 Based on an understanding of architectural styles, you will review architectures for web applications, then explore the basics of Service-Oriented Architecture (SOA) in two approaches: Web Services (WS*) and Representational State Transfer (REST) architecture.
 
