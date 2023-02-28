@@ -22,7 +22,7 @@ In programming, this sort of thinking is commonly referred to as, Black Box Thin
 
 ## Decomposition
 
-
+Decomposition is taking a whole thing and dividing it up into different parts. Or, on the flip side taking a bunch of separate parts with different functionalities, and combining them together to form a whole. Decomposition allows you to further break down problems into pieces that are easier to understand and solve.
 
 ## Generalization
   
