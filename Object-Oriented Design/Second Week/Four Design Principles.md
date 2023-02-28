@@ -36,3 +36,12 @@ Overall, decomposition helps you to break down a problem into smaller pieces. A
 
 ## Generalization
   
+One design principle called generalization, helps us to reduce the amount of redundancy when solving problems. Many behaviors and systems in the real world operate through repetitious actions. We can model behaviors using methods. It lets us generalize behaviors and it eliminates the need to have identical code written throughout a program. Methods are a way of applying the same behavior to a different set of data. 
+
+Generalization is frequently used when designing algorithms, which are meant to be used to perform the same action on different sets of data. We can generalize the actions into its own method, and simply pass it through a different set of data through arguments. 
+
+Generalization happens to be one of the main design principles of object-oriented modeling and programming. But it's achieved differently than what we've just seen with methods. 
+
+Generalization can be achieved by classes through inheritance. In generalization we take repeated, common, or shared characteristics between two or more classes and factor them out into another class. Specifically, you can have two classes, a parent class and a child class. When a child class inherits from a parent class, the child class will have the attributes and behaviors of the parent class. You place common attribute and behaviors in your parent class. There can be multiple child classes that inherit from a parent class, and they all will receive these common attributes and behaviors. The child classes can also have additional attributes and behaviors, which allow them to be more specialized in what they can do. In standard terminology, a parent class is known as a superclass and a child class is called the subclass. 
+
+Inheritance and methods exemplify the generalization design principle. There are techniques that left us apply a rule called D.R.Y., which stands for Don't Repeat Yourself. We can write programs that are capable of performing the same tasks but with less code.
