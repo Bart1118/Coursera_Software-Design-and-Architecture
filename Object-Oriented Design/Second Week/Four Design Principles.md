@@ -24,5 +24,15 @@ In programming, this sort of thinking is commonly referred to as, Black Box Thin
 
 Decomposition is taking a whole thing and dividing it up into different parts. Or, on the flip side taking a bunch of separate parts with different functionalities, and combining them together to form a whole. Decomposition allows you to further break down problems into pieces that are easier to understand and solve.
 
+Since decomposition allows you to create clearly defined parts, it is quite natural that these parts are separate. A whole might have a fixed or dynamic number of a certain type of part. If there is a fixed number, then over the lifetime of the whole object it will have exactly that much of the part object. For example, a refrigerator has a fixed number of freezers, just one. This does not change over time, but there are sometimes parts with a dynamic number. Meaning, the whole object may gain new instances of those part objects over its lifetime. For example, a refrigerator can have a dynamic number of shelves or food items over time.
+
+A part itself can also serve as a whole containing further constituent parts. When you look at our refrigerator example, a drawer can contain fruit.  
+
+One issue in decomposition involves the lifetimes of the whole object, and the part objects, and how they could relate. Lifetimes might be closely related. For example, the refrigerator and its freezer have the same lifetime. One cannot exist by itself without the other. If you dispose off the refrigerator, you would dispose off the freezer as well. But lifetime can also not be so related. The refrigerator and food items have different lifetimes. Either can exist independently.
+
+You can have whole things contain parts that are shared among them at the same time. 
+
+Overall, decomposition helps you to break down a problem into smaller pieces. A complicated whole thing can be composed out of constituent, separate, simpler parts. Important issues to understand are how the parts relate to the whole, such as fixed or dynamic number, their lifetimes, and whether there is sharing.
+
 ## Generalization
   
