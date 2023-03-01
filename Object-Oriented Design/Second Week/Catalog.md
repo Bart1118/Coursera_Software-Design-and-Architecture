@@ -4,7 +4,7 @@
 
 - ## [[Four Design Principles]]
 
-- ## Expressing Design Structure in Java & UML Class Diagrams
+- ## [[Expressing Design Structure in Java & UML Class Diagrams]]
 
 - ## Assignments
 
