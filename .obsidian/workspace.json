@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bcc40af00d533496",
@@ -155,10 +154,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7c3f5f20633cbe04",
+  "active": "b3e9cd4406cae121",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Object-Oriented Design/Second Week/Expressing Design Structure in Java & UML Class Diagrams.md",
+    "conflict-files-obsidian-git.md",
     "Object-Oriented Design/Second Week/Media/Pasted image 20230301191725.png",
     "Object-Oriented Design/Second Week/Media",
     "Object-Oriented Design/First Week/Media",
