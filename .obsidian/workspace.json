@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Object-Oriented Design/Second Week/Expressing Design Structure in Java & UML Class Diagrams.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bcc40af00d533496",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Object-Oriented Design/Second Week/Expressing Design Structure in Java & UML Class Diagrams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Object-Oriented Design/Second Week/Expressing Design Structure in Java & UML Class Diagrams.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Object-Oriented Design/Second Week/Expressing Design Structure in Java & UML Class Diagrams.md"
               }
             }
           },
@@ -156,8 +157,8 @@
   },
   "active": "b3e9cd4406cae121",
   "lastOpenFiles": [
-    "Object-Oriented Design/Object-Oriented Design.md",
     "README.md",
+    "Object-Oriented Design/Object-Oriented Design.md",
     "Object-Oriented Design/Second Week/Notes.md",
     "Object-Oriented Design/Second Week/Second Week Catalog.md",
     "Object-Oriented Design/First Week/First Week Catalog.md",
