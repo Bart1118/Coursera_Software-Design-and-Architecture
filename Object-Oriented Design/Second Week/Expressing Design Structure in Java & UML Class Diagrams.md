@@ -85,4 +85,8 @@ Here is an example of composition using Java. In this example, the brain is cre
 
 ## Generalization with Inheritance in Java and UML
 
+![[Pasted image 20230301173526.png]]
+
+Like the other design principles, UML will let you model generalization and inheritance of the classes in your system. Showing inheritance is very simple in a UML class diagram. You simply connect two classes with a solid lined arrow. This indicates, that two classes are connected by inheritance. The superclass is at the head of the arrow, and the subclass is at the tail. The standard way to draw inheritance into your UML diagrams, is to have the arrow pointing upward. This means that the superclasses are always toward the top, and the subclasses are always toward the bottom.
+
 ## Generalization with Interfaces in Java and UML
