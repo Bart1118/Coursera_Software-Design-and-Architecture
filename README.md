@@ -1,6 +1,6 @@
 # Coursera_Software-Design-and-Architecture
 
-## ***COURSE 1 Object-Oriented Design***
+## ***COURSE 1 [[Object-Oriented Design]]***
 
 This course takes Java beginners to the next level by covering object-oriented analysis and design. You will discover how to create modular, flexible, and reusable software, by applying object-oriented design principles and guidelines. And, you will be able to communicate these designs in a visual notation known as Unified Modelling Language (UML).
 
