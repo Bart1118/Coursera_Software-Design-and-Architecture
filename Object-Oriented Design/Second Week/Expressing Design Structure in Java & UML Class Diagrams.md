@@ -89,4 +89,63 @@ Here is an example of composition using Java. In this example, the brain is cre
 
 Like the other design principles, UML will let you model generalization and inheritance of the classes in your system. Showing inheritance is very simple in a UML class diagram. You simply connect two classes with a solid lined arrow. This indicates, that two classes are connected by inheritance. The superclass is at the head of the arrow, and the subclass is at the tail. The standard way to draw inheritance into your UML diagrams, is to have the arrow pointing upward. This means that the superclasses are always toward the top, and the subclasses are always toward the bottom.
 
+![[Pasted image 20230301174127.png]]
+
+So a simple inheritance in a UML diagram would have this layout. ***You do not need to put any of the inherited superclasses attributes and behaviors into the subclass.*** The arrow is used to communicate inheritance, which implies that the subclass will have the superclasses attributes and methods. The superclasses are the generalized classes, and the subclasses are the specialized classes. 
+
+![[Pasted image 20230301174522.png]]
+
+A UML class diagram describes a dog class as a subclass, and the Animal class as the superclass. This means that the dog class will inherit from the Animal class. The ***hash symbol*** is used to communicate that the animals attributes are ***protected***. 
+
+In Java, a protected attribute or method can only be accessed by, the encapsulating class itself, all subclasses, all classes within the same package. In Java, a package is simply a means in which the classes can be organized into a namespace that represents those classes.
+
+We know that a subclass will have all attributes and behaviors of the superclass that it inherits from. So we do not need to put the superclass's attributes and behaviors in the subclass in our UML diagram. This is because the inheritance notation tells us that the subclass will already have the attributes and behaviors listed in the superclass.
+
+![[Pasted image 20230301175101.png]]
+
+Now, let's convert the UML model into code for the animal and dog classes, so that we can create Doug from it. Since an animal is a generalization of specific species, we do not want to be able to create an animal object on its own. We use the keyword abstract to declare that this class cannot be instantiated. That means that we cannot create an animal object. 
+
+![[Pasted image 20230301175510.png]]
+
+The Animal class will be the superclass for our dogs subclass, any class that inherits from the Animal class will have its attributes and behaviors. This means that if we were to introduce a cat subclass into our system that inherited from the Animal class, the cat and dog subclasses would both have the same attributes and behaviors as the animal superclass. As you would expect, we do not need to declare any of the attributes and behaviors that the dog class inherits from the Animal class. 
+
+Notice that our code and UML diagram are similar in terms of what attributes and methods are declared in the superclass and subclass. The UML class diagram represents our design. If we do not need to restate the inherited attributes and behaviors in the code, then we also do not need to do it in our UML diagram. 
+
+We declare inheritance in Java using the keyword "extends". 
+
+You instantiate objects from a class by using constructors. With inheritance, if you want an instance of a subclass, you need to give the superclass a chance to prepare the attributes for the object appropriately. 
+
+Classes can have implicit constructors or explicit constructors. 
+
+![[Pasted image 20230301175913.png]]
+
+In this implementation of the Animal class, we have an implicit constructor, since we have not written our own constructor. All attributes are assigned zero or null, when using the default constructor. 
+
+![[Pasted image 20230301180031.png]]
+
+The Animal class in this implementation, has an explicit constructor that will let us instantiate an animal with however many legs we want. Explicit constructors, are use of that we can assign values to attributes during instantiation. 
+
+A subclass's constructor ***must call*** its superclass's constructor, if the superclass has an explicit constructor. This is because explicit constructors of the superclass must be referenced by the subclass. Otherwise the superclass attributes would not be appropriately initialized.
+
+![[Pasted image 20230301180259.png]]
+
+In order to access the superclass's attributes, methods and constructors, the subclass uses the keyword called Super.
+
+![[Pasted image 20230301180440.png]]
+
+Subclasses can override the methods of its superclass, meaning that a subclass can provide its own implementation for an inherited superclass's method. The dog class has overwritten the animal class's walk method. If we were to ask the dog to walk, it would tell us that it would rather lay on the couch instead of performing the behavior implemented in the Animal class.
+
+![[Pasted image 20230301180856.png]]
+
+For Java, only single implementation inheritance is allowed. Well a superclass can have multiple subclasses. A subclass can only inherit from one superclass. For example, the dog and cat subclasses can each only have implementation inheritance with one superclass, which is animal. The animal superclass however, can have any number of subclasses, two in this example.
+
+![[Pasted image 20230301181004.png]]
+
+To implement this in code, we simply have the cat and dog classes extend the Animal class. Now we have a cat and a dog that behave like an animal without having to explicitly write code for them. They also have their own behaviors. 
+
+Note, that a subclass itself can be a superclass to another class. Inheritance can trickle down through as many classes as you want. 
+
+Inheritance will let you generalize related classes into a single superclass and still allow the subclasses to retain the same set of attributes and behaviors. This will help remove redundancy in your code, and make it easier to implement changes. 
+
 ## Generalization with Interfaces in Java and UML
+
