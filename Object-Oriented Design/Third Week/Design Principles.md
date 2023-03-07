@@ -45,3 +45,6 @@ Let's look at a new design of the same system. The sensor class is now replaced
 Each of these classes has one clearly defined purpose. Since each has a clear purpose, you can say that these classes are highly cohesive. 
 
 The get method is now not hiding any information like before. We don't have to break encapsulation to look inside the method. You could reasonably assume that humidity sensors get method returns humidity and temperature sensors get method returns temperature. This makes another module that uses either be loosely couple. 
+
+## Separation of Concerns
+
