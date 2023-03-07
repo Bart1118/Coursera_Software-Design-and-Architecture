@@ -6,6 +6,6 @@
 
 - ## [[Expressing Design Structure in Java & UML Class Diagrams]]
 
-- ## Assignments
+- ## [[Assignments]]
 
 - ## Review

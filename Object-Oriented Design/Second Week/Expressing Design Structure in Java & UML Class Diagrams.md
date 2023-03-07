@@ -73,7 +73,7 @@ Now I will show a code example for aggregation. In the airliner class, there is
 
 ***
 
-***Composition*** is an exclusive containment of parts, otherwise known as a strong has-a relationship. What this means is that the whole cannot exist without its parts. If loses any of its parts, the whole ceases to exist. If the whole is destroyed, then all of its parts are destroyed too. Usually, you can only access the parts through its whole. Contained parts are exclusive to the whole. Compare this to the relationship between a house and a room. A house is made up of multiple rooms. However, if you were to remove the house, its rooms would cease to exist. You cannot have a room without its house. 
+***Composition*** is an exclusive containment of parts, otherwise known as a ***strong has-a*** relationship. What this means is that the whole cannot exist without its parts. If loses any of its parts, the whole ceases to exist. If the whole is destroyed, then all of its parts are destroyed too. Usually, you can only access the parts through its whole. Contained parts are exclusive to the whole. Compare this to the relationship between a house and a room. A house is made up of multiple rooms. However, if you were to remove the house, its rooms would cease to exist. You cannot have a room without its house. 
 
 ![[Pasted image 20230301165720.png]]
 

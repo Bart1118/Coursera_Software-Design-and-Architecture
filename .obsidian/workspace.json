@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "c8ca074da427c58a",
+        "id": "eaf50622c3da52db",
         "type": "tabs",
         "children": [
           {
-            "id": "b3e9cd4406cae121",
+            "id": "42a1f0bdca48aea1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Object-Oriented Design/Second Week/Assignments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a8db62d335c137d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bcc40af00d533496",
@@ -155,9 +167,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7c3f5f20633cbe04",
+  "active": "0a8db62d335c137d",
   "lastOpenFiles": [
+    "Object-Oriented Design/Second Week/Media/Pasted image 20230307113225.png",
+    "Object-Oriented Design/Second Week/Media/Blank diagram_00.jpg",
     "Object-Oriented Design/Second Week/Expressing Design Structure in Java & UML Class Diagrams.md",
+    "Object-Oriented Design/Second Week/Assignments.md",
+    "Object-Oriented Design/Second Week/Second Week Catalog.md",
+    "Object-Oriented Design/Second Week/Notes.md",
+    "Object-Oriented Design/Second Week/Four Design Principles.md",
+    "README.md",
+    "未命名.canvas",
     "conflict-files-obsidian-git.md",
     "Object-Oriented Design/Second Week/Media/Pasted image 20230301191725.png",
     "Object-Oriented Design/Second Week/Media",
@@ -170,12 +190,8 @@
     "Pasted image 20230301190029.png",
     "Object-Oriented Design/Second Week/Media/Pasted image 20230301185517.png",
     "Object-Oriented Design/Second Week/Media/Pasted image 20230301184533.png",
-    "Object-Oriented Design/Second Week/Media/Pasted image 20230301184244.png",
     "新建文本文档.txt",
-    "README.md",
     "Object-Oriented Design/Object-Oriented Design.md",
-    "Object-Oriented Design/Second Week/Notes.md",
-    "Object-Oriented Design/Second Week/Second Week Catalog.md",
     "Object-Oriented Design/First Week/First Week Catalog.md",
     "First Week.md",
     "Object-Oriented Design/First Week/Class Responsibility Collaborator (CRC).md",
@@ -184,7 +200,6 @@
     "Object-Oriented Design/First Week/Object-Oriented Thinking.md",
     "Object-Oriented Design/First Week/Design in the Software Process.md",
     "Object-Oriented Design/First Week/Categories of Objects in Design.md",
-    "Object-Oriented Design/Second Week/Four Design Principles.md",
     "Object-Oriented Design/Second Week/Languages Evolution.md",
     "Object-Oriented Design/Second Week/Creating Models in Design.md",
     "Object-Oriented Design/First Week/Review.md",
