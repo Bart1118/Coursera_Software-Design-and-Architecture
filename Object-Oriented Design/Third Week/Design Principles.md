@@ -186,3 +186,6 @@ Another approach to achieving conceptual integrity is having a ***well defined d
 
 Finally, having a small ***core group*** that accepts commits to the code base is another approach in achieving conceptual integrity. This is similar to exercising code reviews, but it restricts the review to only core members of your software team. These members will be responsible for ensuring that any software changes follow the overall architecture and design of the software. Restricting this decision to only either a single person or a small group will solve any design issues and lead to consistency. 
 
+***
+
+Conceptual integrity is a very important principle, and one that will help you to create consistent and well designed software. 
