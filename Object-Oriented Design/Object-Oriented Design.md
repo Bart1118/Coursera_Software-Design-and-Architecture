@@ -8,10 +8,10 @@
 
 ### [[Object-Oriented Design/Second Week/Catalog|Catalog]]
 
-### [[Notes]]
+### [[Object-Oriented Design/Second Week/Notes|Notes]]
 
 ## Third Week
 
 ### [[Object-Oriented Design/Third Week/Catalog|Catalog]]
 
-### Notes
+### [[Object-Oriented Design/Third Week/Notes|Notes]]
