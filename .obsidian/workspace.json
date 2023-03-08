@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,8 +156,9 @@
   },
   "active": "c622a122ed892bc8",
   "lastOpenFiles": [
-    "Object-Oriented Design/Third Week/Catalog.md",
+    "Object-Oriented Design/Second Week/Four Design Principles.md",
     "Object-Oriented Design/Third Week/Design Principles.md",
+    "Object-Oriented Design/Third Week/Catalog.md",
     "Pasted image 20230307153526.png",
     "Pasted image 20230307152825.png",
     "Object-Oriented Design/Third Week/Media",
@@ -176,7 +177,6 @@
     "Object-Oriented Design/Second Week/Media/Pasted image 20230307113225.png",
     "Object-Oriented Design/Second Week/Media/Blank diagram_00.jpg",
     "Object-Oriented Design/Second Week/Notes.md",
-    "Object-Oriented Design/Second Week/Four Design Principles.md",
     "未命名.canvas",
     "conflict-files-obsidian-git.md",
     "Object-Oriented Design/Second Week/Media/Pasted image 20230301191725.png",

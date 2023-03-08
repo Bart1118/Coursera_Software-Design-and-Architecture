@@ -48,3 +48,16 @@ The get method is now not hiding any information like before. We don't have to 
 
 ## Separation of Concerns
 
+One goal of software design principles is to help us create a system that is flexible, reusable and maintainable. One of these principles is called separation of concerns. So, what is a concern? 
+
+A concern is a very general notion, basically it is anything that matters in providing a solution to a problem. Let's think of a supermarket, the concerns in a supermarket could be, how do I butcher meat? How do I bake bread, how do I accept payment? And how do I stock the shelves? These concerns matter when running the business to serve their customers. 
+
+But, what do you notice in how a supermarket is organized to deal with these concerns? There are separate departments that focus on each concern. Each concern poses unique sub-problems. And each department knows what to do and how to address their specific concerns. The organization of a supermarket applies separation of concerns. 
+
+A software system solves a problem in a similar fashion. The problem might be complex with a large number of concerns. Or it might be simple with the small number of concerns. There are concepts that can be abstracted from the problem space. How these abstractions are implemented in the software can lead to more concerns. Some of these concerns may involve what information the implementation represents, what it manipulates, and what gets presented at the end. 
+
+It's easy to get lost and tangled up in all these concerns and their sub-problems. We need to be organized, so that we can think about and address these concerns effectively. As a software solution is designed and constructed, we express how we can address the different sub-problems by separating them into separate sections. 
+
+You might have noticed, that separation of concerns, is a key idea that applies throughout object oriented modelling and programming. The concerns that matter are addressed separately when applying the design principles of abstraction, encapsulation, decomposition, and generalization. 
+
+Each concept in the problem space leads to a separate ***abstraction*** with its own relevant attributes and behaviors. These attributes and behaviors are ***encapsulated*** into their own section of code called a class. The view of a class by the rest of the system and its implementation are separated. So that the details of implementation can change, while the view through an interface can stay the same. A whole class can also be ***decomposed*** into multiple classes. We may recognize commonalities among classes, which are then separated and ***generalized*** into a super class. Separation of concerns is an ongoing process throughout the design process.
