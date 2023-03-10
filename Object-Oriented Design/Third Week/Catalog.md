@@ -1,8 +1,8 @@
 - ## [[Design Principles]]
  
-- ## Generalization Principles
+- ## [[Generalization Principles]]
 
-- ## Modelling Behaviour
+- ## [[Modelling Behaviour]]
 
 - ## Model Checking
 

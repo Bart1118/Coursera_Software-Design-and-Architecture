@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c622a122ed892bc8",
+            "id": "e0ba7ba6015b033b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Object-Oriented Design/Third Week/Design Principles.md",
+                "file": "Object-Oriented Design/Third Week/Modelling Behaviour.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Object-Oriented Design/Third Week/Design Principles.md",
+                "file": "Object-Oriented Design/Third Week/Modelling Behaviour.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Object-Oriented Design/Third Week/Design Principles.md",
+                "file": "Object-Oriented Design/Third Week/Modelling Behaviour.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Object-Oriented Design/Third Week/Design Principles.md"
+                "file": "Object-Oriented Design/Third Week/Modelling Behaviour.md"
               }
             }
           },
@@ -154,11 +154,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7c3f5f20633cbe04",
+  "active": "e0ba7ba6015b033b",
   "lastOpenFiles": [
+    "Object-Oriented Design/Third Week/Catalog.md",
+    "Object-Oriented Design/Third Week/Modelling Behaviour.md",
+    "Object-Oriented Design/Third Week/Generalization Principles.md",
+    "Object-Oriented Design/Third Week/Media/Pasted image 20230310181234.png",
+    "Object-Oriented Design/Second Week/Expressing Design Structure in Java & UML Class Diagrams.md",
+    "Object-Oriented Design/Third Week/Design Principles.md",
+    "Object-Oriented Design/Third Week/Media/Pasted image 20230310180127.png",
+    "Object-Oriented Design/Third Week/Media/Pasted image 20230310180028.png",
     "Object-Oriented Design/Third Week/Media/Pasted image 20230308165400.png",
     "Object-Oriented Design/Third Week/Notes.md",
-    "Object-Oriented Design/Third Week/Design Principles.md",
     "Object-Oriented Design/First Week/Class Responsibility Collaborator (CRC).md",
     "Object-Oriented Design/First Week/Design for Quality Attributes.md",
     "Object-Oriented Design/First Week/Object-Oriented Thinking.md",
@@ -167,7 +174,6 @@
     "Object-Oriented Design/First Week/Design in the Software Process.md",
     "Object-Oriented Design/Second Week/Creating Models in Design.md",
     "Object-Oriented Design/Second Week/Languages Evolution.md",
-    "Object-Oriented Design/Second Week/Expressing Design Structure in Java & UML Class Diagrams.md",
     "Object-Oriented Design/Second Week/Four Design Principles.md",
     "Object-Oriented Design/Second Week/Notes.md",
     "Object-Oriented Design/Object-Oriented Design.md",
@@ -177,10 +183,7 @@
     "Object-Oriented Design/Third Week/Media/Pasted image 20230307152825.png",
     "Object-Oriented Design/Third Week/Media/Pasted image 20230307153526.png",
     "Object-Oriented Design/Third Week/Media/Pasted image 20230308152947.png",
-    "Object-Oriented Design/Third Week/Media/Pasted image 20230308154623.png",
-    "Object-Oriented Design/Third Week/Catalog.md",
     "Object-Oriented Design/Third Week/Media",
-    "Object-Oriented Design/Third Week/Media/Pasted image 20230307152641.png",
     "README.md",
     "Object-Oriented Design/Second Week/Catalog.md",
     "Object-Oriented Design/First Week/Catalog.md",
@@ -189,8 +192,6 @@
     "Object-Oriented Design/First Week/Review.md",
     "Catalog.md",
     "Object-Oriented Design/Second Week/Assignments.md",
-    "Object-Oriented Design/Second Week/Media/Pasted image 20230307113225.png",
-    "Object-Oriented Design/Second Week/Media/Blank diagram_00.jpg",
     "未命名.canvas",
     "conflict-files-obsidian-git.md",
     "Object-Oriented Design/Second Week/Media",
@@ -200,7 +201,6 @@
     "Object-Oriented Design/Second Week",
     "Object-Oriented Design/First Week",
     "Object-Oriented Design/First Week/Media/Coursera_Object-Oriented-Design_Course-Notes.pdf",
-    "Object-Oriented Design/First Week/Media/Coursera_C1-Glossary.pdf",
-    "Design in the Software Process[[.md"
+    "Object-Oriented Design/First Week/Media/Coursera_C1-Glossary.pdf"
   ]
 }
