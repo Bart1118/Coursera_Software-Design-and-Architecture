@@ -23,12 +23,79 @@ A sequence diagram describes how objects in your system interact to complete a 
 
 ![[Pasted image 20230310192610.png]]
 
-When creating sequence diagrams, first you use a box to represent role play by an object. The role is typically labeled by the name of the class for the object. 
+When creating sequence diagrams, first you use a ***box*** to represent role play by an object. The role is typically labeled by the name of the class for the object. 
 
 ![[Pasted image 20230310193223.png]]
 
-Second, you use vertical dotted lines, known as lifelines, to represent an object as time passes by. 
+Second, you use ***vertical dotted lines***, known as ***lifelines***, to represent an object as time passes by. 
 
 ![[Pasted image 20230310193249.png]]
 
-Finally, you use arrows to show messages that are sent from one object to another. 
+Finally, you use ***arrows*** to show messages that are sent from one object to another. 
+
+***
+
+Now that you know the different elements, let's put everything together by creating a sequence diagram. Let's use changing the channel of your television using a remote control. 
+
+First, I'm going start by drawing a box, that will surround the entire process. This is to show that this is one sequence of activities. 
+
+![[Pasted image 20230310194703.png]]
+
+A sequence diagram can contain other sequence diagrams within it. For example, if you are creating a sequence diagram for an ATM, there might be a different sequence for Withdrawal and Deposits. And during a single process someone might want to do both. In your sequence diagram, you would have one big sequence of activities with two smaller sequences inside them. 
+
+![[Pasted image 20230310194926.png]]
+
+Moving on, in the top corner I'm going to draw a label with a meaningful title. Remember, your team will be looking at this diagram as a reference for development, so make the titles meaningful. We will name it Change TV Channel. Next, I'm going to draw out the objects that are important in this task. 
+
+![[Pasted image 20230310195041.png]]
+
+To keep things clean, you should draw objects from left to right in the sequence that they interact with each other. In this example, the TV viewer starts the entire process. The use of the remote which will then interact with the TV. So when are diagram, I'm going to drive the TV viewer then the remote and then the TV. 
+
+![[Pasted image 20230310195233.png]]
+
+If there are people in your example, who will be using or interacting with objects, this are typically draw on a ***stick figures***. We call these people actors, in our example, the TV viewer's an actor. So I'm going to draw them as a stick figure, I'm going to the other objects as ***labeled boxes***. 
+
+![[Pasted image 20230310195427.png]]
+
+Each of these objects has a lifeline. The lifelines you can draw as a dashed line projecting downwards from the object. 
+
+![[Pasted image 20230310195813.png]]
+
+Now, I'm going to start drawing the messages that are sent from object to object. In a sequence diagram, if one object sends a message to another object or objects, we denote this by drawing a ***solid line arrow*** from the sender to the receiver. 
+
+![[Pasted image 20230310195521.png]]
+
+To return data and to control back to initiating objects, we would use a ***dotted line arrow***. 
+
+
+What's the first thing that happened in this example? Let's assume the TV is already on and the TV viewer wants to change her channel. The first thing that happens is the TV viewer presses the numbers on the remote to tell it which channel to go to. 
+
+![[Pasted image 20230310200050.png]]
+
+This activates both TV viewer and the remote in our sequence diagram. 
+
+![[Pasted image 20230310200250.png]]
+
+When an object is activated, we denote this on our sequence diagram using ***small rectangles*** on the objects ***lifeline***. 
+
+You activate an object whenever an object sends, receives or it's waiting for a message. 
+
+![[Pasted image 20230310200421.png]]
+
+The first message that is sent is from the TV viewer to the remote. That message says that the TV viewer pressed numbers. So I'm going to add this to the diagram with a solid line arrow and label it Press Numbers (number) . 
+
+![[Pasted image 20230310200637.png]]
+
+The remote then sends a new message to the television to change the channel to number. We denote this on the diagram with another solid line arrow labeled Change channel (number) . 
+
+![[Pasted image 20230310200717.png]]
+
+This also activates the television object, so I will add a small rectangle to the television's lifeline. 
+
+You'll notice that since a television wasn't activated at the beginning of the example, we don't want the rectangle on its lifeline to start at the same place as the TV viewer or the remote. I drew it a little bit lower on the lifeline to indicate it was activated later in the process. 
+
+![[Pasted image 20230310200831.png]]
+
+Next, the television changes the channel, which the TV viewer can see on the TV screen. This is a returning of control. that means I'm going to denote this response using a dotted line arrow. I'm going to draw this arrow from the television object to the TV viewer. This action only affects the television and the TV viewer. The remote is not part of this interaction, so we do not extend the box on the remote's lifeline to include this action. 
+
+As you design software, your sequence diagrams can get much more complicated. You can also show loops and alternative processes in a sequence diagram. 
