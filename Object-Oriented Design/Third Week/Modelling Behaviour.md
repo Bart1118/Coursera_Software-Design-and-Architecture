@@ -99,3 +99,25 @@ You'll notice that since a television wasn't activated at the beginning of the 
 Next, the television changes the channel, which the TV viewer can see on the TV screen. This is a returning of control. that means I'm going to denote this response using a dotted line arrow. I'm going to draw this arrow from the television object to the TV viewer. This action only affects the television and the TV viewer. The remote is not part of this interaction, so we do not extend the box on the remote's lifeline to include this action. 
 
 As you design software, your sequence diagrams can get much more complicated. You can also show loops and alternative processes in a sequence diagram. 
+
+Let's see what these would look like in a sequence diagram. 
+
+![[Pasted image 20230310201542.png]]
+
+Say the TV viewer is unsure what channel to go to and would like to surf the channels until they find a channel they like. I can wrap the previous sequence I just drew as part of an alternative process. So that it is a sequence of actions that will occur if a condition is true. So I put the sequence in a box and label it ***alt***, for alternative, in the top right corner. 
+
+![[Pasted image 20230310201855.png]]
+
+Now, I need to specify when this alternative will occur. In this case, the sequence occurs if the TV viewer knew what channel they would like. We will label this alternative TV Viewer knows what channel they want. 
+
+![[Pasted image 20230310202416.png]]
+
+If the TV viewer does not know what channel they want, other sequences can occur. One sequence is that the TV viewer will browse to the channels until they find something to watch. So I'm going to drag this sequence underneath the previous sequence with the condition ***else***, meaning this sequence occurs if all other alternatives are false. However, this sequence contains a loop. I will denote that by adding and labeling a box ***loop*** on the top left corner. 
+
+Right under the label, I put a conditional statement for the loop. If that statement is true, it will go through the loop. Loop sequence should continually occur if the TV viewer does not like the channel they are watching, so I will add that condition to this loop box. 
+
+![[Pasted image 20230310202754.png]]
+
+The TV viewer is going to press the up or down arrow on the remote to browse through the channels. This sends a message to the remote. The remote will then send a message to the TV with this action. Just like in the initial sequence, the TV changes the channel and displays that to the TV viewer. The final sequence diagram looks like this. 
+
+Sequence diagrams are a very powerful too you can use to model your software. Sequence diagrams are commonly used as a planning tool before the development team starts programming, or to show others how a system is designed. And they can help you to determine the functions you will need to right. It might even help you find problems in your system that you didn't see before. Sequence diagram are another technique you now know that will help you to create clean, well-designed programs.
