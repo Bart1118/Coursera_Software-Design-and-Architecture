@@ -66,3 +66,5 @@ After you have become familiar with the code, construct a UML class diagram that
 -   Inheritance
 
 ![[UML Class Diagram_00.jpg]]
+
+![[Pasted image 20230317145310.png]]
