@@ -53,3 +53,5 @@ And contain calls of the following methods:
 
 Lastly, the activation of AddItemActivity should start with the call to “onCreate()”
 
+![[My UML Sequence Diagram_00.jpg]]
+

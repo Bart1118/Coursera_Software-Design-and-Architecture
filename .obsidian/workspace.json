@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Object-Oriented Design/Third Week/Modelling Behaviour.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b62840794d915f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Object-Oriented Design/Third Week/Assignments.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 223.5
   },
   "right": {
     "id": "bcc40af00d533496",
@@ -154,10 +167,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2e30a4c6d91c977c",
+  "active": "4b62840794d915f6",
   "lastOpenFiles": [
-    "Object-Oriented Design/Second Week/Assignments.md",
+    "My UML Sequence Diagram_00.jpg",
+    "Object-Oriented Design/Third Week/Modelling Behaviour.md",
     "Object-Oriented Design/Third Week/Assignments.md",
+    "Object-Oriented Design/Second Week/Assignments.md",
     "Object-Oriented Design/Second Week/Expressing Design Structure in Java & UML Class Diagrams.md",
     "Object-Oriented Design/Second Week/Review.md",
     "Object-Oriented Design/Second Week/Four Design Principles.md",
@@ -174,7 +189,6 @@
     "Object-Oriented Design/Third Week/Media/Pasted image 20230310202416.png",
     "Object-Oriented Design/Third Week/Catalog.md",
     "Object-Oriented Design/Second Week/Catalog.md",
-    "Object-Oriented Design/Third Week/Modelling Behaviour.md",
     "Object-Oriented Design/Third Week/Design Principles.md",
     "Pasted image 20230310202329.png",
     "Object-Oriented Design/Third Week/Media/Pasted image 20230310201855.png",
