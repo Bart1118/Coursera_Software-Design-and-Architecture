@@ -121,3 +121,67 @@ Right under the label, I put a conditional statement for the loop. If that stat
 The TV viewer is going to press the up or down arrow on the remote to browse through the channels. This sends a message to the remote. The remote will then send a message to the TV with this action. Just like in the initial sequence, the TV changes the channel and displays that to the TV viewer. The final sequence diagram looks like this. 
 
 Sequence diagrams are a very powerful too you can use to model your software. Sequence diagrams are commonly used as a planning tool before the development team starts programming, or to show others how a system is designed. And they can help you to determine the functions you will need to right. It might even help you find problems in your system that you didn't see before. Sequence diagram are another technique you now know that will help you to create clean, well-designed programs. 
+
+## UML State Diagram
+
+A state diagram is a technique that you can use to describe how your system behaves and responds. State diagrams can describe a single object and illustrate how that object behaves in response to a series of events in your system.
+
+A ***state*** is the way an object exists at a particular point in time. The state of an object is determined by the values of its attributes. 
+
+Using UML state diagrams, you can express the different states of your objects and how the states will change when an event occurs. 
+
+To better understand how to create UML state diagrams, let's actually create one together. Let's use a vending machine as an example for our UML state diagram. 
+
+![[Pasted image 20230320163419.png]]
+
+First, I'll indicate the start of this diagram with a filled circle. Every state diagram has a filled circle to indicate which is the starting state, the vending machine starts in a state named idle. This is when the vending machine is waiting for coins to be inserted. I draw states as rounded rectangles. 
+
+Let me explain states in more detail, each state has three important sections, a ***state name***, ***state variables***, ***and activities***. 
+
+![[Pasted image 20230320163820.png]]
+
+Each state should at least have a state name. A state name is as it sounds, the name of the state, these names should be meaningful for the states of your object. For example, a car in reverse would have a state named reverse. Or a vending machine in a waiting, or idle state, would have a state named idle. State variables are data relevant to the state of the object. For example, using a course as an object, a relevant variable is the number of students enrolled. The course would be in state full, if this variable was at the course capacity. 
+
+![[Pasted image 20230320164051.png]]
+
+Activities are actions that are performed when in a certain state, and they're displayed at the bottom. There are three types of activities for each state, ***entry***, ***exit***, and ***do***. 
+
+- Entry activities are actions that occur when the state is just entered from another state. 
+
+- Exit activities are actions that occur when the state is exited and moves on to another state. 
+
+- And do activities are actions that occur once, or multiple times while the object is in a certain state. 
+
+![[Pasted image 20230320164314.png]]
+
+Now back to our vending machine example. When the vending machine enters this idle state, it always displays the total of coins inserted so far. This means it is also tracking this total. I will draw these inside the rectangle. The state variable is total, and the entry activity will be display total. Inserting a coin is an event that could change the state of the vending machine. 
+
+![[Pasted image 20230320164332.png]]
+
+Events that could change a state label transitions between the states. You draw these transitions with arrows from one state to another. Each transition arrow will always have an event, and may have a guard condition and an action. The transition and action happens from a given state if the event occurs and the condition is true. 
+
+***
+
+![[Pasted image 20230320164709.png]]
+
+Now back to our vending machine example. When the vending machine enters this idle state, it always displays the total of coins inserted so far. This means it is also tracking this total. I will draw these inside the rectangle. The state variable is total, and the entry activity will be display total. 
+
+Inserting a coin is an event that could change the state of the vending machine. Events that could change a state label transitions between the states. You draw these transitions with arrows from one state to another. Each transition arrow will always have an event, and may have a guard condition and an action. 
+
+Again, back to our vending machine. Suppose, when in the idle state, someone inserts a coin and the total so far is less than the product price. Let's express this situation with a transition arrow that loops back to the idle state. With the event insert coin, condition total less than price, and action display insert more coins. 
+
+But suppose when in the idle state, someone inserts a coin and the total equals the product price. Let's express this situation with a transition arrow to a new state, named enough coins. And label this transition with the event, insert coin, and condition, total equals price. Let's have an entry action for enough coins being, display enough coins. 
+
+When in the enough coins state, we have enough payment. So if someone presses the dispense button, the vending machine should release one of the product. We'll express this situation with a transition arrow from the enough coin state back to idle. And label this transition with the event, press dispense, and action, total equals zero, dispense product. 
+
+In either state, if someone press the cancel button, the vending machining should return all the coins inserted. So we'll express this with two transitions from the two states. Both back to the idle state, and label both transitions with an event, press cancel, and action, total equals zero, eject coins. 
+
+![[Pasted image 20230320165417.png]]
+
+One element of state diagrams that's not shown in the one we just created is termination. Termination represents an object being destroyed, or the process being completed, and is drawn as a circle with a filled circle inside. 
+
+For example, when using a bank machine, you can represent it returning your card at the end of the process and thus ending in termination. Not all diagrams have a termination like the vending machine, they may run continuously. 
+
+***
+
+State diagrams are useful for describing the behavior of a system or of a single object. For example, it can help you determine the different events that might occur during an object's lifetime. Like different user inputs, and how that object should behave when these events occur, like checking conditions and performing actions.

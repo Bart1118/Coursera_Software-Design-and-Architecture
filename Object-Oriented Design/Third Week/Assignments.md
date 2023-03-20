@@ -20,6 +20,8 @@ You will be expected to upload a PDF file of your UML sequence diagram. A free o
 
 ![[Pasted image 20230313175515.png]]
 
+***
+
 ## Peer-graded Assignment: Capstone Assignment 1.2 – UML Sequence Diagram
 
 **Guidelines for the assignment**
@@ -54,4 +56,20 @@ And contain calls of the following methods:
 Lastly, the activation of AddItemActivity should start with the call to “onCreate()”
 
 ![[My UML Sequence Diagram_00.jpg]]
+
+![[1A6qSJLZS2iOqkiS2Qtocg_00e55cd0dc29494193fac28e8e5b9700_1.2_sequence_diagram_solution_00.jpg]]
+
+***
+
+## Practice Peer-graded Assignment: Ungraded Assignment – UML State Diagram
+
+**Assignment Topic:**
+
+During your two previous assignments you created a UML class diagram and sequence diagram to display your new system for North American airports. You are now required to create a UML state diagram to communicate the state of the planes in the airports.
+
+The airplanes should go through multiple different states. When planes are not in use for a flight they are usually **waiting** to be assigned. Once a plane is chosen to be used for a flight, they are **assigned** to that flight until the airplane is ready for take-off. While the plane is in the air and flying the state is termed **‘en route’**. Once the plane has reached its destination, the plane has to change into a state of **landing** for the airport to prepare for its arrival. Finally, once the plane has successfully landed, the plane is checked to see if it is ready to be assigned to a new flight or if maintenance is required. If **maintenance** is required the plane is unusable and if a mechanic decides that the plane cannot be repaired it is removed from the airport and disposed. 
+
+![[Blank diagram_00.jpg]]
+
+![[Pasted image 20230320173724.png]]
 
