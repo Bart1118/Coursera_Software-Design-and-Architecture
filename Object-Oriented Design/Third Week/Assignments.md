@@ -73,3 +73,30 @@ The airplanes should go through multiple different states. When planes are not i
 
 ![[Pasted image 20230320173724.png]]
 
+***
+
+## Peer-graded Assignment: Capstone Assignment 1.3 – UML State Diagram
+
+**Guidelines for the assignment**
+
+Review this lecture to aid you on your assignment:
+
+Review Lecture: 1.3.7 – UML State Diagram
+
+**How to create your assignment**
+
+Review the code responsible for adding a new item and editing an existing item.
+
+Remember that an item can either be “Available” or “Borrowed” and can either have an image attached or not.
+
+In this assignment you are to make a state diagram that captures the four possible states of an item.
+
+-   Available without photo
+-   Available with photo
+-   Borrowed without photo
+-   Borrowed with photo
+
+Include arrows to indicate transitions between the states and label these transitions accordingly. And, remember to include the terminal state and to indicate the starting state. 
+
+![[Blank diagram_00 1.jpg]]
+

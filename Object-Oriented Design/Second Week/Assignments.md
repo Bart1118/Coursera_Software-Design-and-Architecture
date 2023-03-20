@@ -18,6 +18,8 @@ You will be expected to upload a PDF of your UML class diagram. A free online to
 
 ![[Pasted image 20230307113225.png]]
 
+***
+
 ## Peer-graded Assignment: Capstone Assignment 1.1 – UML Class Diagram
 
 **Guidelines for the assignment**

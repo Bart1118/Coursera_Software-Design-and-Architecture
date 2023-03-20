@@ -136,7 +136,10 @@ To better understand how to create UML state diagrams, let's actually create on
 
 First, I'll indicate the start of this diagram with a filled circle. Every state diagram has a filled circle to indicate which is the starting state, the vending machine starts in a state named idle. This is when the vending machine is waiting for coins to be inserted. I draw states as rounded rectangles. 
 
-Let me explain states in more detail, each state has three important sections, a ***state name***, ***state variables***, ***and activities***. 
+Let me explain states in more detail, each state has three important sections.
+- a ***state name***
+- ***state variables***
+- ***and activities***
 
 ![[Pasted image 20230320163820.png]]
 
