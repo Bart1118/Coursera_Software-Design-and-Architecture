@@ -160,7 +160,7 @@ Conceptual integrity is about creating consistent software. It's making decisio
 
 Now, it's important to understand that conceptual integrity does not mean that the developers in your team don't get to voice their opinions about the software. It's more about everyone agreeing to use certain design principles and conventions. 
 
-There are multiple ways to achieve conceptual integrity. 
+There are multiple ways to achieve ***conceptual integrity***. 
 
 ***
 

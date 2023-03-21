@@ -100,3 +100,5 @@ Include arrows to indicate transitions between the states and label these transi
 
 ![[Blank diagram_00 1.jpg]]
 
+![[Pasted image 20230321135618.png]]
+

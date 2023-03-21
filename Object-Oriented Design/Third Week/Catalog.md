@@ -4,8 +4,8 @@
 
 - ## [[Modelling Behaviour]]
 
-- ## Model Checking
+- ## [[Model Checking]]
 
 - ## [[Object-Oriented Design/Third Week/Assignments|Assignments]]
 
-- ## Review
+- ## [[Object-Oriented Design/Third Week/Review|Review]]

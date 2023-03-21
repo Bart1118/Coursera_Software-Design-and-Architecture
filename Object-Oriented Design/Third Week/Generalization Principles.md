@@ -24,9 +24,9 @@ Well inheritance is a powerful design tool that can help you create clean, reusa
 
 So how do we know if we're abusing inheritance? Well, there are a few points to be aware of when implying inheritance. 
 
-First, you need to ask yourself, am I using inheritance to simply share attributes or behavior without further adding anything special in my subclasses? If the answer is yes, then you're misusing inheritance. This is an indication of misuse, because there is no point for the subclasses to exists since the superclass already is enough. 
+1. First, you need to ask yourself, am I using inheritance to simply share attributes or behavior without further adding anything special in my subclasses? If the answer is yes, then you're misusing inheritance. This is an indication of misuse, because there is no point for the subclasses to exists since the superclass already is enough. 
 
-The second indication of improper use of generalization is, if you break the Liskov Substitution Principle. The principle states that ***a subclass can replace a superclass, if and only if, the subclass does not change the functionality of the superclass.*** 
+2. The second indication of improper use of generalization is, if you break the Liskov Substitution Principle. The principle states that ***a subclass can replace a superclass, if and only if, the subclass does not change the functionality of the superclass.*** 
 
 Let's take a look at this example. This is our generalized Animal class, it knows how to eat, walk, and run. Are you able to see how we can introduce a subclass that would break the Liskov Substitution Principle? What if we had this type of animal? 
 

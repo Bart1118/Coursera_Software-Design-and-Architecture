@@ -3,6 +3,7 @@
 - [ ] abstract data types
 
 - [x] main program and subroutines
+> Correct. Early languages supported software that was a tree of routines.
 
 - [ ] local variables
 
@@ -63,8 +64,10 @@
 ### 7. Which keywords allow your classes to achieve polymorphism in Java? **Choose the two correct answers.**
 
 - [x] implements
+> Correct! This is the keyword for interface inheritance in Java.
 
 - [x] extends
+> Correct! The is the keyword for implementation inheritance in Java.
 
 - [ ] inherits
 
@@ -72,7 +75,7 @@
 
 ### 8. Which is the proper way to show inheritance in a UML class diagram? Choose one of the four options below:
 
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/qHu-rYK2EeeLKw4rVN2l6g_b539f6f1b16bcd338fbe1c85b463f50b_C1-Quiz2-03.png?expiry=1679184000000&hmac=ltfih0Wy9tG50xbDlH4YhAAVE20STIAecHjR5E4bEhw)
+![[Pasted image 20230321150054.png]]
 
 - [ ] **a)**
 
@@ -89,13 +92,13 @@
 - [ ] «anOperation()»
 
 - [x] _anOperation()_
+> Correct! An abstract method, variable, or class name is denoted in UML with *italics*.
 
 - [ ] \#anOperation()
 
 ### 10. Which UML class diagram is a good example of encapsulation? Choose one of the four options below:
 
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/QIG7q4jtEeeVww6sNtJtBg_a9208bad22f30ac823fdc93571fbef3e_C1Quiz2Q10---Page-1.png?expiry=1679184000000&hmac=1dk4MvRRNYXaHHh2qQEJVrGyQ_xegGZpGiS-ITq7nDs)
-
+![[Pasted image 20230321150130.png]]
 
 - [ ] a)
 
