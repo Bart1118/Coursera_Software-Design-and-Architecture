@@ -12,6 +12,8 @@ When you are identifying objects to include in your software and breaking down t
 
 **Control objects** are objects which are responsible for coordination. You will discover control objects when you attempt to break down a large object, and find that it would be useful to have an object that controls the other objects. You will see many examples of these objects in real usage in the next course in the specialization: Design Patterns. A great example is a Mediator: it simply coordinates the activities of many different objects so that they can stay loosely coupled.
 
+***
+
 ## Categories of Objects in Action
 
 At this point it may be difficult to see how these object types can help you. That is okay; breaking down objects in the best way takes real-world practice and experience. The most important thing to realize at this point is that your software will not solely consist of **entity objects**. Of course there will be objects for real-world items like tables and chairs or invoices and shopping carts, but there must also be objects for coordination and for interfacing with outside systems. They are a little bit harder to see, but no less essential, especially as you move from small projects to more complex software.

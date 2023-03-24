@@ -2,6 +2,12 @@
 
 You may be eager to tackle implementation work and get something working, but the requirements and design activities are critical. Once you begin coding a solution and depend on certain assumptions, it can become difficult to change those assumptions. 
 
+The design activity involves taking requirements and outlining a solution. This activity involves producing a conceptual design and then a technical design, which results in two corresponding kinds of artifacts, ***conceptual mockups*** and ***technical diagrams***. 
+
+***Conceptual mockups*** provide your initial thoughts for how the requirements will be satisfied. In making a conceptual design of a building, we try to recognize appropriate components, connections and responsibilities and avoid technical details. An architect starts with a sketch of the building with the components, connections and responsibilities in mind. When it comes to conceptual design and software involving user interfaces, conceptual mockups can be a hand drawn sketch or a drawing made using computer tools. 
+
+From a conceptual design, we move to making a technical design where, just like building design, you try to add a detail how those components, connections and responsibilities can be implemented. Later on in the specialization, you will learn about different ***technical diagrams*** that describe the structure and behavior of these components. 
+
 ## Expressing Requirements with User Stories
 
 A big part of building a software system is determining what the customer wants. We call these **requirements**, and there are many techniques for eliciting or discovering requirements from a customer or user. If you want to learn more about the many ways in which to elicit and clarify requirements, you can check out the Software Project Management specialization provided by the University of Alberta and Coursera.
