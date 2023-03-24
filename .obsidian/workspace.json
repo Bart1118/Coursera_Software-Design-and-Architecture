@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "bf2941398385c61a",
+        "id": "e03c63325895d5c4",
         "type": "tabs",
         "children": [
           {
-            "id": "63f76fb78a19d61f",
+            "id": "7041090236e80d88",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Object-Oriented Design/Fourth Week/Assignments.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Object-Oriented Design/Second Week/Review.md",
+                "file": "Object-Oriented Design/Fourth Week/Assignments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Object-Oriented Design/Second Week/Review.md",
+                "file": "Object-Oriented Design/Fourth Week/Assignments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Object-Oriented Design/Second Week/Review.md"
+                "file": "Object-Oriented Design/Fourth Week/Assignments.md"
               }
             }
           },
@@ -150,13 +154,32 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7c3f5f20633cbe04",
+  "active": "7041090236e80d88",
   "lastOpenFiles": [
-    "Object-Oriented Design/Second Week/Expressing Design Structure in Java & UML Class Diagrams.md",
+    "Pasted image 20230324150102.png",
+    "Object-Oriented Design/Object-Oriented Design.md",
+    "Object-Oriented Design/PDF/Coursera_Object-Oriented-Design_Course-Notes.pdf",
+    "Object-Oriented Design/PDF/Coursera_C1-Glossary.pdf",
+    "Object-Oriented Design/Fourth Week/Assignments.md",
+    "Object-Oriented Design/PDF",
+    "Object-Oriented Design/Fourth Week/PDF/SDA Object-Oriented Design - Capstone 1.4 Tutorial.pdf",
+    "Object-Oriented Design/Fourth Week/PDF",
+    "Object-Oriented Design/Fourth Week/Catalog.md",
+    "Object-Oriented Design/First Week/Catalog.md",
+    "Object-Oriented Design/Fourth Week/Media",
+    "Object-Oriented Design/First Week/Design in the Software Process.md",
+    "Object-Oriented Design/First Week/Review.md",
+    "Object-Oriented Design/First Week/Class Responsibility Collaborator (CRC).md",
+    "Object-Oriented Design/First Week/Design for Quality Attributes.md",
+    "Object-Oriented Design/First Week/Introduction to Software Design and Architecture.md",
+    "Object-Oriented Design/First Week/Object-Oriented Thinking.md",
+    "Object-Oriented Design/First Week/Categories of Objects in Design.md",
+    "Object-Oriented Design/Fourth Week/Course Review.md",
+    "Object-Oriented Design/Fourth Week",
     "Object-Oriented Design/Second Week/Review.md",
+    "Object-Oriented Design/Second Week/Expressing Design Structure in Java & UML Class Diagrams.md",
     "Object-Oriented Design/Third Week/Design Principles.md",
     "Object-Oriented Design/Third Week/Review.md",
-    "Object-Oriented Design/First Week/Review.md",
     "Object-Oriented Design/Second Week/Media/Pasted image 20230321150130.png",
     "Object-Oriented Design/Second Week/Media/Pasted image 20230321150054.png",
     "Object-Oriented Design/Third Week/Media/Pasted image 20230321145930.png",
@@ -176,26 +199,9 @@
     "Object-Oriented Design/Second Week/Four Design Principles.md",
     "Object-Oriented Design/Second Week/Creating Models in Design.md",
     "Object-Oriented Design/Second Week/Languages Evolution.md",
-    "Object-Oriented Design/Second Week/Catalog.md",
-    "Object-Oriented Design/Third Week/Notes.md",
-    "Object-Oriented Design/First Week/Class Responsibility Collaborator (CRC).md",
-    "Object-Oriented Design/First Week/Design for Quality Attributes.md",
-    "Object-Oriented Design/First Week/Object-Oriented Thinking.md",
-    "Object-Oriented Design/First Week/Introduction to Software Design and Architecture.md",
-    "Object-Oriented Design/First Week/Categories of Objects in Design.md",
-    "Object-Oriented Design/First Week/Design in the Software Process.md",
-    "Object-Oriented Design/Second Week/Notes.md",
-    "Object-Oriented Design/Object-Oriented Design.md",
     "Object-Oriented Design/Third Week/Media",
-    "README.md",
     "Object-Oriented Design/Third Week",
     "未命名.canvas",
-    "Object-Oriented Design/Second Week/Media",
-    "Object-Oriented Design/First Week/Media",
-    "新建文本文档.txt",
-    "Object-Oriented Design/Second Week",
-    "Object-Oriented Design/First Week",
-    "Object-Oriented Design/First Week/Media/Coursera_Object-Oriented-Design_Course-Notes.pdf",
-    "Object-Oriented Design/First Week/Media/Coursera_C1-Glossary.pdf"
+    "Object-Oriented Design/Second Week/Media"
   ]
 }
